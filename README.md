@@ -1,7 +1,8 @@
-# Macro Viewer Site 🖥️
+# Sapphire Team Macro Site 🖥️
 
-Welcome to the **Macro Viewer Site**! This GitHub Pages site is designed exclusively for our dev team to review and test the latest updates to our macro. 🚀
-
+Welcome to the **Sapphire Team Macro Site**! This GitHub Pages site is designed exclusively for our dev team to review and test the latest updates to our macro. 🚀
+---
+Credit to [AuriFisch](1092678374427738203) for the Sites design on squarespace
 ---
 
 ## ⚠️ Important Notes on Updating
@@ -14,7 +15,7 @@ Welcome to the **Macro Viewer Site**! This GitHub Pages site is designed exclusi
 ---
 
 ## Usage Guide 📄
-- Use this site to verify visual or functional aspects of the macro.  
+- Use this site for publishing of the macro's download links, News, Warnings, and Recommendations.  
 - Keep changes incremental and easy to track.
 
 ---
