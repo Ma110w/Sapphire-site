@@ -1,140 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisch Macro</title>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Sapphire Macro</title>
+    <meta property="og:site_name" content="Sapphire Macro">
+    <meta property="og:title" content="Sapphire Macro">
+    <meta property="og:url" content="https://your-github-pages-link-here.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://your-image-link-here.com">
+    <link rel="icon" type="image/x-icon" href="https://your-favicon-link-here.com">
     <style>
-        :root {
-            --main-color: #4CAF50;
-            --secondary-color: #333;
-            --text-color: #fff;
-            --bg-color: #f4f4f4;
-        }
+      :root {
+        --primary-color: #4CAF50;
+        --secondary-color: #333;
+        --text-color: #fff;
+        --bg-color: #f4f4f4;
+        --link-color: #4CAF50;
+      }
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--secondary-color);
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg-color);
+        color: var(--secondary-color);
+      }
 
-        header {
-            background-color: var(--main-color);
-            color: var(--text-color);
-            padding: 20px;
-            text-align: center;
-        }
+      header {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        padding: 1rem;
+        text-align: center;
+      }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 10px;
-        }
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+      }
 
-        nav a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-size: 1.1em;
-        }
+      nav a {
+        color: var(--text-color);
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+      nav a:hover {
+        text-decoration: underline;
+      }
 
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+      main {
+        padding: 1rem;
+        max-width: 900px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
 
-        section h2 {
-            color: var(--main-color);
-        }
+      main h2 {
+        color: var(--primary-color);
+      }
 
-        footer {
-            background-color: var(--secondary-color);
-            color: var(--text-color);
-            text-align: center;
-            padding: 15px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+      footer {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        text-align: center;
+        padding: 1rem;
+      }
 
-        .features, .credits {
-            margin: 20px 0;
-        }
+      .button {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: var(--link-color);
+        color: var(--text-color);
+        text-decoration: none;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+      }
 
-        .button {
-            display: inline-block;
-            padding: 10px 15px;
-            color: var(--text-color);
-            background-color: var(--main-color);
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+      .button:hover {
+        background-color: #45a049;
+      }
 
-        .button:hover {
-            background-color: #45a049;
-        }
+      .features, .credits {
+        margin: 1rem 0;
+      }
+
+      ul {
+        padding-left: 1.5rem;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Fisch Macro</h1>
-        <nav>
-            <a href="#features">Features</a>
-            <a href="#download">Download</a>
-            <a href="#credits">Credits</a>
-        </nav>
+      <h1>Sapphire Macro</h1>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="#credits">Credits</a>
+      </nav>
     </header>
 
-    <section id="features" class="features">
-        <h2>✨ Features</h2>
+    <main>
+      <section id="features" class="features">
+        <h2>Features</h2>
         <ul>
-            <li>Click the "Shake" Button with ease.</li>
-            <li>Choose between "Click" or "Navigation" from the dropdown.</li>
-            <li>Master the bar mini-game 🎮.</li>
-            <li>Automatically calculate bar sizes 🤓 for better functionality.</li>
-            <li>Add delays for those of you on laggy PCs.</li>
-            <li>Use webhooks for Discord integration.</li>
+          <li>Automated "Shake" button click.</li>
+          <li>Choice between "Click" or "Navigation" modes.</li>
+          <li>Effortlessly win the bar mini-game.</li>
+          <li>Accurate bar size calculations.</li>
+          <li>Adjustable delays for performance optimization.</li>
+          <li>Discord webhook integration for notifications.</li>
         </ul>
-    </section>
+      </section>
 
-    <section id="download" class="download">
-        <h2>📥 How to Download</h2>
-        <p>Follow these steps to get started:</p>
+      <section id="download" class="download">
+        <h2>Download</h2>
+        <p>Get started with Sapphire Macro:</p>
         <ol>
-            <li>Download <a href="https://www.python.org/downloads/" target="_blank">Python</a> (version 3.13.0 recommended).</li>
-            <li>Download <a href="https://www.autohotkey.com/" target="_blank">AutoHotkey</a> (version 1.1).</li>
+          <li>Download <a href="https://www.python.org/downloads/" target="_blank">Python</a> (v3.13.0 recommended).</li>
+          <li>Download <a href="https://www.autohotkey.com/" target="_blank">AutoHotkey</a> (v1.1).</li>
         </ol>
-        <a class="button" href="https://github.com/your-repo" target="_blank">Go to GitHub</a>
-    </section>
+        <a href="https://github.com/your-repo-link-here" class="button">Go to GitHub</a>
+      </section>
 
-    <section id="credits" class="credits">
-        <h2>🏆 Credits</h2>
+      <section id="credits" class="credits">
+        <h2>Credits</h2>
         <p>Special thanks to the Sapphire Macro Team:</p>
         <ul>
-            <li><strong>Owner:</strong> Golden</li>
-            <li><strong>Developer:</strong> /x64/dumped</li>
-            <li><strong>Community Members:</strong> mrkaka, tha dawg, saturndou, Lunar, edg, Spaceuk</li>
+          <li><strong>Owner:</strong> Golden</li>
+          <li><strong>Developer:</strong> /x64/dumped</li>
+          <li><strong>Community Members:</strong> mrkaka, tha dawg, saturndou, Lunar, edg, Spaceuk</li>
         </ul>
-    </section>
+      </section>
+    </main>
 
     <footer>
-        <p>Made with ❤️ by the Sapphire Macro Team</p>
+      <p>Made with ❤️ by the Sapphire Macro Team</p>
     </footer>
-</body>
+  </body>
 </html>
