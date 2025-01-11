@@ -1,4 +1,4 @@
-# Sapphire Team Macro Site 🖥️
+# [Sapphire Team Macro Site](https://sapphire-macro.github.io/Sapphire-Site/) 🖥️
 
 Welcome to the **Sapphire Team Macro Site**! This GitHub Pages site is designed exclusively for our dev team to ensure the end user has a concrete and consistent place to download the macro from. 🚀
 ---
