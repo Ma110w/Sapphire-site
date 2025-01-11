@@ -1,8 +1,8 @@
 # Sapphire Team Macro Site 🖥️
 
-Welcome to the **Sapphire Team Macro Site**! This GitHub Pages site is designed exclusively for our dev team to review and test the latest updates to our macro. 🚀
+Welcome to the **Sapphire Team Macro Site**! This GitHub Pages site is designed exclusively for our dev team to ensure the end user has a concrete and consistent place to download the macro from. 🚀
 ---
-Credit to [AuriFisch](1092678374427738203) for the Sites design on squarespace
+Credit to [AuriFisch](1092678374427738203) for the Sites design on SquareSpace
 ---
 
 ## ⚠️ Important Notes on Updating
